@@ -1,1 +1,3 @@
-console.log("Hello webpack!")
+import RPlayer from './player'
+
+export default RPlayer

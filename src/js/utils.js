@@ -1,13 +1,7 @@
-class Utils {
-  constructor() {
+const isMobile = /mobile/i.test(window.navigator.userAgent);
 
-  }
+const utils = {
 
-  get(key) {
+};
 
-  }
-
-  set(key, val) {
-
-  }
-}
+export default utils;

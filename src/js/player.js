@@ -1,10 +1,12 @@
-// import user from './user';
-// import events from './events';
-// import option from './option';
+import User from './user';
+import Events from './events';
+import HandleOption from './option';
 
 class RPlayer {
-  constructor() {
-    console.log('233');
+  constructor(options) {
+    this.options = HandleOption(options);
+    this.events = Events();
+
   }
 
 }
